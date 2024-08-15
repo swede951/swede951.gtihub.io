@@ -121,14 +121,17 @@ nav .fa {
     display: none;
 }
 
-@media (min-width: 700px){
+/* @media (min-width: 700px){
     .phone_banner_img img {
         display: none;
     }
     
-}
+} */
 
 @media (max-width: 700px){
+    .header {
+        overflow: hidden;
+    }
     .text-box h1 {
         font-size: 2.5rem;
     }
