@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chefs Do That - Home</title>
+    <link rel="stylesheet" href="./styles copy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/font-awesome.min.css"> -->
+    <script src="https://kit.fontawesome.com/ce7fbdf974.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="Index.html"><img src="./Resources/Images/Logo(3).png"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="./Services.html">SERVICES</a></li>
+                    <li><a href="">TESTIMONIALS</a></li>
+                    <li><a href="./Contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Chefs Do That</h1>
+            <p>The best place for all things cooking and food. <br> Recipe ideas? Got you covered. Need to hire a caterer? Look no further.</p>
+            <a href="" class="hero-btn">Get In Touch</a>
+        </div>
+        </div>
+
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about_container">
+    <section class="about">
+       
+        <div class="row">
+            <div class="about-col">
+                <h1>About Me</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque nobis ea maiores adipisci doloremque veritatis aut recusandae, maxime error perferendis, deleniti harum amet? Non mollitia hic modi rerum temporibus sequi?</p>
+                <br>
+                <a href="" class="about-btn">Read More</a>
+            </div>
+            <div class="about-col">
+                <img src="./Resources/Images/About.jpg">
+            </div>
+        </div>
+
+    </section>
+    </section>
+    <div class="shape"></div>
+
+
+    <!-- Services -->
+
+    <section class="services">
+        <h1>Services We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptatem accusantium eius ullam enim, a accusamus ad error repellendus unde libero possimus ipsum corrupti? Exercitationem voluptas assumenda magnam est maiores.</p>
+        
+        <div class="row">
+            <div class="service-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque nobis ea maiores adipisci doloremque veritatis aut recusandae, maxime error perferendis, deleniti harum amet? Non mollitia hic modi rerum temporibus sequi?</p>
+            </div>
+            <div class="service-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque nobis ea maiores adipisci doloremque veritatis aut recusandae, maxime error perferendis, deleniti harum amet? Non mollitia hic modi rerum temporibus sequi?</p>
+            </div>
+            <div class="service-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque nobis ea maiores adipisci doloremque veritatis aut recusandae, maxime error perferendis, deleniti harum amet? Non mollitia hic modi rerum temporibus sequi?</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Testimonials -->
+
+    <section class="testimonials">
+        <h1>Testimonials</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, esse distinctio, deleniti error nesciunt quidem velit aliquid incidunt expedita eaque minima repudiandae eveniet nam doloremque, neque totam minus sit? Fugiat.</p>
+        
+        <div class="row">
+            <div class="testimonial_col">
+                <img src="./Resources/Images/Logo.png">
+                <div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla perferendis provident voluptas odio magni? Eveniet enim iure, expedita pariatur, voluptatem, omnis consectetur sint quaerat dignissimos quis unde asperiores distinctio amet.</p>
+                    <h3>Will Cotton</h3>
+                </div>
+            </div>
+            <div class="testimonial_col">
+                <img src="./Resources/Images/Logo.png">
+                <div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla perferendis provident voluptas odio magni? Eveniet enim iure, expedita pariatur, voluptatem, omnis consectetur sint quaerat dignissimos quis unde asperiores distinctio amet.</p>
+                    <h3>Jack Cotton</h3>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+
+    <!-- Call To Action -->
+
+    <section class="cta">
+        <h1>Get In Touch For A Free Quote</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro inventore ullam quasi minus accusantium vel voluptatem saepe!<br> Laudantium, dicta maxime? Odio autem ratione voluptatibus dolore debitis nulla! Neque, rerum molestiae!</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <p>Made by SWS</p>
+     </section>
+
+     
+
+<!---------  JavaScript for Toggle Menu  --------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+</html>
