@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./Resources/Styles/contact.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/font-awesome.min.css"> -->
+    <script src="https://kit.fontawesome.com/ce7fbdf974.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+
+
+
+
+        <section class="header">
+            <nav>
+                <a href="Index.html"><img src="./Resources/Images/Logo(3).png"></a>
+    
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="./Index.html">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">TESTIMONIALS</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="./Contact.html">CONTACT</a></li>
+    
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            
+            <div class="text-box">
+                <h1>Contact Us</h1>
+            </div>
+        </section> 
+
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h2>Get In Touch</h2>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="b4c1c6e5-a93f-4347-b666-d31cf3287d65">
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <button type="submit">Submit <img src=""></button>
+            </form>
+            <div class="contact-right">
+                <img src="./Resources/Images/About.jpg" alt="">
+
+            </div>
+        </div>
+    
+
+<!-- JavaScript -->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+    
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+        
+    </script>
+
+<!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro inventore ullam quasi minus accusantium vel voluptatem saepe!<br> Laudantium, dicta maxime? Odio autem ratione voluptatibus dolore debitis nulla! Neque, rerum molestiae!</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <p>Made by SWS</p>
+    </section>
+
+
+</body>
+</html>
