@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./services.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ce7fbdf974.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="./Resources/Images/logo(3).png"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="./Services.html">SERVICES</a></li>
+                    <li><a href="">TESTIMONIALS</a></li>
+                    <li><a href="./Contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Services</h1>
+        </div>
+        </div>
+
+    </section>
+
+
+    <!-- Services Section -->
+
+    <section class="hero">
+        <!--<div class="heading">
+            <h1>Services</h1>
+        </div> -->
+        <div class="container">
+            <div class="hero-content">
+                <h2>Family Events</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam beatae autem, vitae quaerat dignissimos illum debitis commodi assumenda harum vero, perferendis omnis eaque eos delectus, reprehenderit soluta cum exercitationem expedita.</p>
+            </div>
+            <div class="hero-image">
+                <img src="./452051236_1817424528745901_4384662605721242058_n.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section class="hero">
+        <!--<div class="heading">
+            <h1>Services</h1>
+        </div> -->
+        <div class="container2">
+            <div class="hero-image">
+                <img src="./Resources/Images/wedding-food.webp">
+            </div>
+            <div class="hero-content">
+                <h2>Weddings</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam beatae autem, vitae quaerat dignissimos illum debitis commodi assumenda harum vero, perferendis omnis eaque eos delectus, reprehenderit soluta cum exercitationem expedita.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero">
+        <!--<div class="heading">
+            <h1>Services</h1>
+        </div> -->
+        <div class="container">
+            <div class="hero-content">
+                <h2>And More</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam beatae autem, vitae quaerat dignissimos illum debitis commodi assumenda harum vero, perferendis omnis eaque eos delectus, reprehenderit soluta cum exercitationem expedita.</p>
+            </div>
+            <div class="hero-image">
+                <img src="./Resources/Images/Reunion With Friends.jpg">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- JavaScript-->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+    
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    
+    </script>
+
+</body>
+</html>
